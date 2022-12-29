@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec-one{
+    width: 1000px;   
+    height: 1300px; 
+    margin: 0 auto;
+    background-image: url(./images/vecteezy_marble-backgrounds-and-ribbons-templates-for-placing-text_8725641_555.jpg);
+}
+.header{
+    height: 80px;
+    background-color: #303030;
+}
+.name{
+    display: flex;
+}
+.header ul li{
+    margin: 15px 37px; 
+    font-size: 40px;
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover {
+    background-color:rgb(208, 201, 137);
+    font-size: 40px;
+}
+.header ul li i{
+    color: white;
+}
+.photo{
+    display: flex;
+    padding: 47px 0;
+}
+.photo img{
+    width: 300px;
+    margin: 0 auto;
+    border: 1px black solid;
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+}
+.name h2{
+    margin: 0 auto;
+    font-size: 60px;
+    color: cadetblue;
+    padding: 10px 0;
+}
+.name h2:hover{
+    color: rgb(175, 175, 51);
+}
+.containt ul li{
+    font-size: 20px;
+    line-height: 40px;
+    list-style: square;
+}
+.Work-Experience h6{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;  
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.p1 {
+    font-size:15px;
+    margin-bottom: 20px;
+}
+.containt{
+    margin: 25px 0;
+    padding: 8px 40px;
+    width: 50%;
+}
+.head{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(221, 219, 230);
+}
+.btn{
+    flex-direction: column;
+    display: flex;
+    padding: 30px 36px;
+    width: 50%
+}
+.btn input{
+    margin: 2px 100px;
+}
+.btn button{
+    margin: 12px 160px;
+    padding: 7px 4px;
+}
+.btn textarea{
+    margin: 2px 100px;
+}
+.btn button:hover{
+    background-color: rgb(133, 235, 133);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
